@@ -10,7 +10,7 @@
     "categories": [
         "Other"
     ],
-    "repository": "git@github.com/davidfig/github-issues",
+    "repository": "git@github.com:davidfig/github-issues",
     "activationEvents": [
         "onCommand:extension.githubIssues"
     ],
