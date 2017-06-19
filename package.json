@@ -2,7 +2,7 @@
     "name": "github-issues",
     "displayName": "Open Github Issues",
     "description": "Opens Github Issues for workspace in external browser",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "yopeyopey",
     "engines": {
         "vscode": "^1.13.0"
@@ -10,7 +10,7 @@
     "categories": [
         "Other"
     ],
-    "repository": "git@github.com:davidfig/github-issues",
+    "repository": "git@github.com:davidfig/github-issues.git",
     "activationEvents": [
         "onCommand:extension.githubIssues"
     ],
