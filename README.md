@@ -8,7 +8,7 @@ Workspace must contain a package.json file with a github.com repository.
 
 ## Instructions
 
-After installation, Ctrl/Cmd-P and type Github Issues
+After installation, Ctrl/Cmd-Shift-P and type Github Issues
 
 ## Release Notes
 

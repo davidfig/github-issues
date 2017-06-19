@@ -1,8 +1,8 @@
 {
     "name": "github-issues",
-    "displayName": "github-issues",
-    "description": "Open Github Issues for workspace",
-    "version": "1.0.0",
+    "displayName": "Open Github Issues",
+    "description": "Opens Github Issues for workspace in external browser",
+    "version": "1.0.1",
     "publisher": "yopeyopey",
     "engines": {
         "vscode": "^1.13.0"
