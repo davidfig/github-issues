@@ -28,7 +28,22 @@ async function open()
         window.showErrorMessage('package.json not found in workspace.');
         return;
     }
-    if (repository)
+    if (repository.url)
+    {
+        const beginning = 'https://github.com/';
+        if (repository.url.indexOf(beginning) === 0)
+        {
+            const remaining = repository.url.substring(('https://github.com/').length);
+            const names = remaining.split('/');
+            let uri = Uri.parse('https://github.com/' + names[0] + '/' + names[1].replace('.git', '') + '/issues/');
+            commands.executeCommand('vscode.open', uri);
+        }
+        else
+        {
+            window.showErrorMessage('package.json repository.url entry should be in form of "https://github.com/user/repository.git"');
+        }
+    }
+    else if (repository)
     {
         const parts = repository.split(':');
         if (parts[0] !== 'git@github.com')
