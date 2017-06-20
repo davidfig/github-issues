@@ -2,7 +2,7 @@
     "name": "github-issues",
     "displayName": "Open Github Issues",
     "description": "Opens Github Issues for workspace in external browser",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "publisher": "yopeyopey",
     "engines": {
         "vscode": "^1.13.0"
@@ -20,6 +20,13 @@
             {
                 "command": "extension.githubIssues",
                 "title": "Github Issues"
+            }
+        ],
+        "keybindings":[
+            {
+                "command": "extension.githubIssues",
+                "key": "ctrl+alt+i",
+                "mac": "cmd+alt+i"
             }
         ]
     },

@@ -1,7 +1,8 @@
-# Change Log
-All notable changes to the "github-issues" extension will be documented in this file.
+## 1.2
+ - Added extensions.keybinding for ctrl/cmd-alt-i
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.1
+ - Added respoitory.url format. Improved readme instructions.
 
-## [Unreleased]
+## 1.0
 - Initial release
