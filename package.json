@@ -2,7 +2,7 @@
     "name": "github-issues",
     "displayName": "Open Github Issues",
     "description": "Opens Github Issues for workspace in external browser",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "yopeyopey",
     "engines": {
         "vscode": "^1.13.0"
@@ -30,6 +30,7 @@
             }
         ]
     },
+    "icon": "icon.png",
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
