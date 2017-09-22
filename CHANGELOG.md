@@ -1,3 +1,6 @@
+## 1.3
+ - Parsing of git+ssh for github names
+
 ## 1.2
  - Added extensions.keybinding for ctrl/cmd-alt-i
 

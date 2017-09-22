@@ -20,6 +20,15 @@ Workspace must contain a package.json file with a github.com repository entry in
         "url": "https://github.com/davidfig/github-issues.git"
     },
 
+    OR
+
+    ...
+    "repository":
+    {
+        "type": "git",
+        "url": "git+ssh://git@github.com/davidfig/github-issues.git"
+    }
+
 ## Instructions
 
 After installation, Ctrl/Cmd-Shift-P and type Github Issues or press CTRL/CMD-ALT-i to open Github Issues page for workspace repository.
